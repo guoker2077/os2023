@@ -3,3 +3,7 @@ SRCS      = $(addprefix src/, $(AM_SRCS))
 INC_PATH += $(AM_HOME)/am/src
 
 include $(AM_HOME)/Makefile
+
+#NAME := hello
+#SRCS := main.c say.c
+#include $(AM_HOME)/Makefile
