@@ -35,9 +35,9 @@ ARCH_SPLIT = $(subst -, ,$(ARCH))
 ISA        = $(word 1,$(ARCH_SPLIT))
 PLATFORM   = $(word 2,$(ARCH_SPLIT))
 
-NAME := hello
-SRCS := main.c say.c
-include $(AM_HOME)/Makefile
+#NAME := hello
+#SRCS := main.c say.c
+#include $(AM_HOME)/Makefile
 ### Check if there is something to build
 ifeq ($(flavor SRCS), undefined)
   $(error Nothing to build)

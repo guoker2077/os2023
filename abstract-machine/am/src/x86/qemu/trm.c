@@ -3,7 +3,10 @@
 Area heap = {};
 int __am_ncpu = 0;
 
-int main(const char *args);
+int main(const char *args)
+{
+  return 0;
+};
 
 static void call_main(const char *args) {
   halt(main(args));
